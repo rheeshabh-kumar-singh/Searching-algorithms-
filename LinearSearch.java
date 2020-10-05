@@ -6,6 +6,10 @@ public class LinearSearch {
 		int[] arr= new int[] {5,6,12,34,56,3,7,43,1};
 		int val=34;
 		linerSearch(arr,val);
+		
+		int[] sortedArr= new int[] {1,2,4,6,8,13,16,23,27,35,38,39,45,67,89};
+		BinarySearch bs= new BinarySearch();
+		bs.binarySearch(sortedArr, 35);
 
 	}
 	
